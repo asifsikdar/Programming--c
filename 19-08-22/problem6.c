@@ -7,10 +7,8 @@ int main()
 
     if(Alphabet == 'a'|| Alphabet == 'e' || Alphabet == 'i' || Alphabet == 'o' ||  Alphabet == 'u'){
         printf("Vowel Word");
-    }else if(Alphabet == 'A'|| Alphabet == 'E' || Alphabet == 'I' || Alphabet == 'O' ||  Alphabet == 'U'){
-
-        printf("Vowel Word");
-    }else{
+    }
+    else{
         printf("Consonant Word");
     }
 
