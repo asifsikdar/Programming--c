@@ -10,8 +10,8 @@ int main()
       case 1:
         printf("Zero %d",number);
         break;
-    }
-    switch(number>0)
+      case 0:
+         switch(number>0)
     {
       case 0:
         printf("Negative %d",number);
@@ -20,6 +20,8 @@ int main()
       case 1:
          printf("Positive %d",number);
         break;
+    }
+
 
       default:
         printf("Zero %d",number);
