@@ -11,10 +11,10 @@ int main()
         x*=3;
         y*=2;
 
-        count++;
+        count++
 
     }
 
 
-    printf("Result %.2f",count);
+    printf("Result A %.2f",count);
 }
