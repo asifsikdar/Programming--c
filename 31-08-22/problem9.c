@@ -5,11 +5,11 @@ int main()
     printf("Enter number");
     scanf("%d",&number);
 
-    for(i=number;i>0;)
+    for(i=number;i>0; i=i/10)
     {
         r = i%10;
         s = s*10+r;
-        i = i/10;
+
     }
 
     if(s==number)

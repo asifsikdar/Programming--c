@@ -5,12 +5,14 @@ int main()
     printf("Enter number");
     scanf("%d",&number);
 
-    for(i=2;i<number;++i)
+    printf("%d %d",n1,n2);
+    for(i=2;i<number;i++)
     {
         n3 = n1+n2;
 
-        printf("%d",n3);
+        printf(" %d",n3);
         n1 = n2;
         n2= n3;
     }
+
 }
