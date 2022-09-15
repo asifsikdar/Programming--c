@@ -2,7 +2,7 @@
 int main()
 {
     int row,col,n;
-    printf("Enter pateern size : ");
+    printf("Enter pattern size : ");
     scanf("%d",&n);
 
     for(row=1;row<=n;row++)

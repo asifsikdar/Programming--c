@@ -9,9 +9,13 @@ int main()
     {
         for(col=1;col<=row;col++)
         {
-            printf("%d",col);
+            printf("%c",col+96);
         }
         printf("\n");
     }
 
 }
+
+
+
+
